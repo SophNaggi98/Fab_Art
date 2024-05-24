@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="layout.css" />
+    <title>Check_out</title>
+    <header>
+        <body>
+      <nav>
+        <nav class="nav-menu">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="Portfolio.html">Portfolio</a></li>
+          <li><a href="Customise.html">Customise</a></li>
+          <li><a href="Connect.html">Connect</a></li>
+        </nav>
+      </nav>
+    </header>
+
+    <div class="checkout-container">
+        <h1>Checkout</h1>
+        <div class="selected-options">
+            <h2>Selected Options</h2>
+            <ul>
+                <!-- Display selected options here -->
+                <li>Material: Gold</li>
+                <li>Shape: Leaf</li>
+                <li>Stone: Carnelian</li>
+            </ul>
+        </div>
+        
+        <!-- Payment form -->
+        <div class="payment-form">
+            <h2>Payment Information</h2>
+            <!-- Include payment form fields here -->
+            <form>
+                <!-- Cardholder's Name -->
+                <div class="form-group">
+                    <label for="cardholder-name">Cardholder's Name</label>
+                    <input type="text" id="cardholder-name" name="cardholder-name" required>
+                </div>
+                <!-- Card Number -->
+                <div class="form-group">
+                    <label for="card-number">Card Number</label>
+                    <input type="text" id="card-number" name="card-number" required>
+                </div>
+                <!-- Expiry Date -->
+                <div class="form-group">
+                    <label for="expiry-date">Expiry Date</label>
+                    <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+                </div>
+                <!-- CVC -->
+                <div class="form-group">
+                    <label for="cvc">CVC</label>
+                    <input type="text" id="cvc" name="cvc" required>
+                </div>
+                <!-- Address -->
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <!-- Country -->
+                <div class="form-group">
+                    <label for="country">Country</label>
+                    <input type="text" id="country" name="country" required>
+                </div>
+            </form>
+        </div>
+        <button type="submit">Submit Payment</button>  <!-- Payment form fields -->
+            </form>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+          <p>&copy; 2024 FabArt. All rights reserved.</p>
+        </div>
+      </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

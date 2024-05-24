@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="layout.css" />
+    <title>Customise</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="Portfolio.html">Portfolio</a></li>
+          <li><a href="Customise.html">Customise</a></li>
+          <li><a href="Connect.html">Connect</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="customise-container">
+      <div class="text-container">
+        <p class="customise-paragraph">
+          Customizing your jewelry allows you to express your unique style and
+          preferences. Whether you are looking for a specific design, material,
+          or size, we can help you create the perfect piece that reflects your
+          individuality. Let's work together to bring your vision to life.
+        </p>
+      </div>
+    </div>
+    <div class="image-fullwidth-container">
+      <img
+        src="immages/Group 9.png"
+        alt="Full Width Image"
+        class="full-width-image"
+      />
+    </div>
+    <!-- Material section -->
+    <div class="customisation-section">
+      <h2>Material</h2>
+      <div class="customisation-options">
+        <div class="option">
+          <label for="gold">
+            <input type="radio" id="gold" name="material" value="Gold" />
+            Gold
+          </label>
+          <img src="path_to_gold_image.jpg" alt="Gold Image" />
+        </div>
+        <div class="option">
+          <label for="silver">
+            <input type="radio" id="silver" name="material" value="Silver" />
+            Silver
+          </label>
+          <img src="path_to_silver_image.jpg" alt="Silver Image" />
+        </div>
+        <div class="option">
+          <label for="gilded_silver">
+            <input
+              type="radio"
+              id="gilded_silver"
+              name="material"
+              value="Gilded Silver"
+            />
+            Gilded Silver
+          </label>
+          <img
+            src="path_to_gilded_silver_image.jpg"
+            alt="Gilded Silver Image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Shape section -->
+    <div class="customisation-section">
+      <h2>Shape</h2>
+      <div class="customisation-options">
+        <div class="option">
+          <label for="leaf">
+            <input type="radio" id="leaf" name="shape" value="Leaf" />
+            Leaf
+          </label>
+          <img src="path_to_leaf_image.jpg" alt="Leaf Image" />
+        </div>
+        <div class="option">
+          <label for="square">
+            <input type="radio" id="square" name="shape" value="Square" />
+            Square
+          </label>
+          <img src="path_to_square_image.jpg" alt="Square Image" />
+        </div>
+        <div class="option">
+          <label for="cloverleaf">
+            <input
+              type="radio"
+              id="cloverleaf"
+              name="shape"
+              value="Cloverleaf"
+            />
+            Cloverleaf
+          </label>
+          <img src="path_to_cloverleaf_image.jpg" alt="Cloverleaf Image" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Stone Section -->
+    <div class="customisation-section">
+      <h2>Stone</h2>
+      <div class="customisation-options">
+        <div class="option">
+          <label for="carnelian">
+            <input type="radio" id="carnelian" name="stone" value="Carnelian" />
+            Carnelian
+          </label>
+          <img src="path_to_carnelian_image.jpg" alt="Carnelian Image" />
+        </div>
+        <div class="option">
+          <label for="tourmaline">
+            <input
+              type="radio"
+              id="tourmaline"
+              name="stone"
+              value="Tourmaline"
+            />
+            Tourmaline
+          </label>
+          <img src="path_to_tourmaline_image.jpg" alt="Tourmaline Image" />
+        </div>
+        <div class="option">
+          <label for="sapphire">
+            <input type="radio" id="sapphire" name="stone" value="Sapphire" />
+            Sapphire
+          </label>
+          <img src="path_to_sapphire_image.jpg" alt="Sapphire Image" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Submit button -->
+    <div class="submit-button-container">
+      <button id="submit-button" onclick="submitForm()">Submit</button>
+    </div>
+
+     
+<!-- JavaScript file -->
+<script src="script.js"></script>
+</div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2024 FabArt. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </body>
+</html>
